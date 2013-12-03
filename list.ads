@@ -8,7 +8,7 @@ package list is
   ITEM_NOT_FOUND : exception;
 
   -- PushList
-  procedure Add (ID : ID_TYPE; VALUE : DATA:TYPE);
+  procedure Add (ID : ID_TYPE; VALUE : DATA_TYPE);
 
   -- PopList
   function Get (ID : ID_TYPE) return DATA_TYPE;
